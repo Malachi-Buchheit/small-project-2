@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Eden:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Eden_jar</output-path>
+    <root id="archive" name="Eden.jar">
+      <element id="module-output" name="Eden" />
+      <element id="directory" name="saves">
+        <element id="dir-copy" path="$PROJECT_DIR$/saves" />
+      </element>
+    </root>
+  </artifact>
+</component>
