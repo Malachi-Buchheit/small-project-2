@@ -28,13 +28,15 @@ public class MyWindow extends Canvas{
         JFrame frame = new JFrame();
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        frame.add(this);
-        createBufferStrategy(2);
 
+        frame.add(this);
         frame.pack();
+
         frame.setResizable(false);
         frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+
+        createBufferStrategy(2);
     }
 
     public static int getWindowWidth() {
